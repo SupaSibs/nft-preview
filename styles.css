@@ -1,0 +1,58 @@
+
+:root {
+--cyan: hsl(178, 100%, 50%);
+--main: hsl(217, 54%, 11%);
+--card: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+
+* {
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--main)
+}
+
+main {
+  border-radius: 5px;
+  padding: 60px 0px;
+  background-color: var(--card);
+  height: 50%;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+main * {
+  margin: 10px;
+}
+
+.claim {
+  display: flex;
+ /* min-width: 94%;*/
+ padding: 0;
+ justify-content: space-around;
+  flex-direction: row;
+}
+
+hr {
+  color: var(--line);
+min-width: 90%;
+max-width: 90%;
+}
+
+#jules {
+  height: 50px;
+  width: 50px;
+}
+
+
+
