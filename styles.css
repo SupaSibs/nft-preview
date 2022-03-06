@@ -22,8 +22,8 @@ body {
 }
 
 main {
-  border-radius: 5px;
-  padding: 60px 0px;
+  border-radius: 10px;
+  padding: 10px 0px;
   background-color: var(--card);
   height: 50%;
   max-width: 25%;
@@ -54,5 +54,8 @@ max-width: 90%;
   width: 50px;
 }
 
-
-
+#equil {
+  max-width: 80%;
+  max-height: 10%;
+  border-radius: 10px;
+}
